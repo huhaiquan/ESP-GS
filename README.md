@@ -20,7 +20,7 @@ where $X=\{x_1,...,x_j,...,x_k\}$ and $x_j=(lat_j,lon_j)\in \Omega \subseteq \ma
 
 To assess network robustness, a **Random Failure Evaluation** (RFEval) method and two corresponding metrics($AUC_{USN}$ and $AUC_{USR}$) are designed to simulate independent server failure events in the real-worl and to evaluate the changes in user service status before and after network failures, providing a quantified metric for network robustness. The experiment result shown in [Comparison of Network Robustness with RFEval](./Experiment%20Results/Comparison%20of%20Network%20Robustness%20with%20RFEval.xlsx).
 
-Tab. 2 Comparison of the user survival number with different server failure rates
+Tab. 1 Comparison of the user survival number with different server failure rates
 
 | Server Fault Rate |     0    |    0.1   |    0.2   |    0.3   |    0.4   |    0.5   |    0.6   |    0.7   |    0.8   |    0.9   | $AUC_{USN}$ |
 |:-----------------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:-----------:|
@@ -29,7 +29,7 @@ Tab. 2 Comparison of the user survival number with different server failure rate
 |       ESP-A       | 3627.44  | 3555.79  | 3466.87  | 3376.88  | 3259.94  | 3123.49  | 2953.66  | 2738.87  | 2408.26  | 1886.81  |   2974.51   |
 |       ESP-GS      | 4433.06  | 4395.82  | 4336.97  | 4253.85  | 4140.77  | 3970.97  | 3725.48  | 3351.77  | 2749.97  | 1920.08  |   3649.52   |
 
-Tab. 3 Comparison of the user survival rate with different server failure rates
+Tab. 2 Comparison of the user survival rate with different server failure rates
 
 | Server Fault Rate |   0.1  |   0.2  |   0.3  |   0.4  |   0.5  |   0.6  |   0.7  |   0.8  |   0.9  | $AUC_{USR}$ |
 |:-----------------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:-----------:|
